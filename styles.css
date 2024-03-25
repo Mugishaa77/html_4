@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+    background-color: lightcyan;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: lightgreen;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Skills Display */
+.skills {
+    background-color: lightyellow;
+    margin: 20px;
+    padding: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Information */
+.contact {
+    background-color: lightpink;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: blue;
+}
+
+.contact a:hover {
+    color: lightseagreen;
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 600px) {
+
+    /* Reduce margins and padding for smaller screens */
+    .header,
+    .introduction,
+    .skills,
+    .contact {
+        margin: 10px;
+        padding: 10px;
+    }
+}
